@@ -1,6 +1,6 @@
 name: "Migrate Organization-Level Ruleset"
 description: "Provide the source and target organization details for the migration."
-title: "Migrate Secrets and Variables for {{source_org}}"
+title: "Migrate Rulesets for {{source_org}}"
 labels:
   - migration
   - automation
