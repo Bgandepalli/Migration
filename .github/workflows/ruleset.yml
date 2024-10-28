@@ -1,4 +1,4 @@
-name: Migrate Organization-Level Secrets and Variables
+name: Migrate Organization-Level Rulesets
 
 on:
   issues:
