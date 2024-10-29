@@ -49,10 +49,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install gh
         env:
-          GH_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Install gh-migrate-rulesets extension
         run: gh extension install katiem0/gh-migrate-rulesets
+        env:
+          GH_TOKEN: ${{ github.token }}
+
 
       - name: Get Issue Body
         id: issue_body
